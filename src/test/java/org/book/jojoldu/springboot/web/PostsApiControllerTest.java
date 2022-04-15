@@ -1,7 +1,7 @@
 package org.book.jojoldu.springboot.web;
 
-import org.book.jojoldu.springboot.web.domain.posts.Posts;
-import org.book.jojoldu.springboot.web.domain.posts.PostsRepository;
+import org.book.jojoldu.springboot.domain.posts.Posts;
+import org.book.jojoldu.springboot.domain.posts.PostsRepository;
 import org.book.jojoldu.springboot.web.dto.PostsSaveRequestDto;
 import org.book.jojoldu.springboot.web.dto.PostsUpdateRequestDto;
 import org.junit.jupiter.api.AfterEach;

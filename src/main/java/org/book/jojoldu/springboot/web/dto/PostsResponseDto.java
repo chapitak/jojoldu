@@ -1,7 +1,9 @@
 package org.book.jojoldu.springboot.web.dto;
 
-import org.book.jojoldu.springboot.web.domain.posts.Posts;
+import lombok.Getter;
+import org.book.jojoldu.springboot.domain.posts.Posts;
 
+@Getter
 public class PostsResponseDto {
 
     private final Long id;
