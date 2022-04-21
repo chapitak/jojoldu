@@ -15,3 +15,12 @@ spring:
   session:
     store-type: "jdbc"
 
+# Test Oauth
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: "test"
+            client-secret: "test"
+            scope: "profile,email"
